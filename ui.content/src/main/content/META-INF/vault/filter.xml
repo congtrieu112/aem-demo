@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/devblockhomepagesample" mode="merge"/>
+    <filter root="/content/devblockhomepagesample" mode="merge"/>
+    <filter root="/content/dam/devblockhomepagesample" mode="merge">
+        <exclude pattern="/content/dam/devblockhomepagesample(/.*)?"/>
+        <include pattern="/content/dam/devblockhomepagesample/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/devblockhomepagesample/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/devblockhomepagesample" mode="merge"/>
+</workspaceFilter>
